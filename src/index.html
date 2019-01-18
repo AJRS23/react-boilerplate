@@ -8,10 +8,10 @@
 </head>
 
 <body id="root">
-    
+    <% if(process.env.NODE_ENV === 'production') { %>
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    
-<script type="text/javascript" src="./main.js"></script></body>
+    <% } %>
+</body>
 
 </html>

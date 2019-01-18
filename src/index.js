@@ -1,4 +1,6 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import App from "./component/app.component";
-ReactDOM.render(<App />, document.querySelector("#root"));
+import React from 'react';
+import ReactDOM from 'react-dom';
+import '@babel/polyfill';
+import App from './component/app.component';
+
+ReactDOM.render(<App />, document.querySelector('#root'));
